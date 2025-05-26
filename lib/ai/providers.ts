@@ -32,6 +32,6 @@ export const myProvider = isTestEnvironment
         'artifact-model': google('gemini-2.5-flash'),
       },
       imageModels: {
-        'small-model': google.image('grok-2-image'),
+        'small-model': google.image('gemini-2.0-flash-preview-image-generation'),
       },
     });
