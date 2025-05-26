@@ -30,8 +30,5 @@ export const myProvider = isTestEnvironment
         }),
         'title-model': google('gemini-2.5-flash'),
         'artifact-model': google('gemini-2.5-flash'),
-      },
-      imageModels: {
-        'small-model': google.image('gemini-2.0-flash-preview-image-generation'),
-      },
+      }
     });
