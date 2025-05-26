@@ -20,7 +20,7 @@ export async function middleware(request: NextRequest) {
   const token = await getToken({
     req: request,
     secret: process.env.AUTH_SECRET,
-    secureCookie: True, // Luôn false trong Replit vì không có HTTPS
+    secureCookie: true, // Luôn false trong Replit vì không có HTTPS
   });
 
 
